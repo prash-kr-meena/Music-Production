@@ -1,11 +1,16 @@
-**/*.md
-
+# **/*.md
 
 
 docs
 
+# this version is not supported --Oldest version
+v1_README.md
+
+# this version is kind of on the binary-muesgan  --Also not maintained now
+v2_README.md
+
 #  ----- inside docs  ---
-# docs/pdf
+docs/pdf
 # docs/figs
 # docs/_layouts
 # docs/_sass
@@ -13,4 +18,11 @@ docs
 # docs/_includes
 # docs/_config.yml
 # docs/dataset.html
+
+
+
+
+# ignore pip file  as we are downloading from  " requirements.txt "
+Pipfile
+Pipfile.lock
 
