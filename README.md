@@ -166,7 +166,7 @@ Retrieval Conference_ (ISMIR), 2018.<br>
 
 -->
 
-[paper](link from my site's pdf folder -> for that i need to might need to change and host the site )]
+[paper](https://github.com/prashant-kr-314/Music-Production/blob/master/docs/pdf/bmusegan-ismir2018-paper_1.pdf)]
 <!-- [[paper](link from my site's pdf folder -> for that i need to might need to change and host the site )]
 
     NEED TO HOST  this
@@ -200,8 +200,7 @@ __MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic
 Music Generation and Accompaniment__<br>
 Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang and Yi-Hsuan Yang,
 
-[[paper]( hos this pdf or ppt on the github pdf folder or
-you can share it by google or microsoft slides ro exle)]
+[[paper](https://github.com/prashant-kr-314/Music-Production/blob/master/docs/pdf/musegan-aaai2018-paper_2.pdf)]
 
 [[code](https://github.com/prashant-kr-314/Music-Production)]
 
@@ -225,4 +224,4 @@ Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang and Yi-Hsuan Yang
 <br>
 
 
-[[paper](link from my github project)]
+[[paper](https://github.com/prashant-kr-314/Music-Production/blob/master/docs/pdf/musegan-ismir2017-lbd-paper_3.pdf)]
