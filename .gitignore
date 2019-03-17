@@ -1,23 +1,29 @@
 # **/*.md
 
 
-docs
-
 # this version is not supported --Oldest version
 v1_README.md
 
 # this version is kind of on the binary-muesgan  --Also not maintained now
 v2_README.md
 
-#  ----- inside docs  ---
-docs/pdf
-# docs/figs
-# docs/_layouts
-# docs/_sass
-# docs/audio
-# docs/_includes
-# docs/_config.yml
-# docs/dataset.html
+#  ----- inside docs  -----
+# docs/pdf
+docs/figs
+docs/_layouts
+docs/_sass
+docs/audio
+docs/_includes
+docs/_config.yml
+docs/dataset.html
+
+# ---- readme files ---
+docs/abstract.md
+docs/data.md
+docs/index.md
+docs/model.md
+docs/papers.md
+docs/results.md
 
 
 
