@@ -1,0 +1,16 @@
+**/*.md
+
+
+
+docs
+
+#  ----- inside docs  ---
+# docs/pdf
+# docs/figs
+# docs/_layouts
+# docs/_sass
+# docs/audio
+# docs/_includes
+# docs/_config.yml
+# docs/dataset.html
+
