@@ -11,6 +11,26 @@ def load_data_from_npy(filename):
     """Load and return the training data from a npy file."""
     return np.load(filename)
 
+#  ==>  What is an NPZ file?  <===
+# The NPZ file type is primarily associated with nProtect by INCA Internet Co, Ltd.
+#   nProtect is a new Web-based anti-hacking & anti-virus tool designed to protect PC terminals from being infected by viruses or hacking tools. A game client which uses GameGuard downloads .NPZ files and extracts them for game hacking protection. NPZ files are mostly GameGuard updates located at the game server's host. When downloading a game client with GameGuard, first the GameGuard initializes itself, checks for updates, and if any, downloads NPZ files from the remote host (probably the game server's host).
+
+# How to open an NPZ file?
+# You need a suitable software like nProtect from INCA Internet Co, Ltd. to open an NPZ file. Without proper software you will receive a Windows message "How do you want to open this file?" (Windows 10) or "Windows cannot open this file" (Windows 7) or a similar Mac/iPhone/Android alert. If you cannot open your NPZ file correctly, try to right-click or long-press the file. Then click "Open with" and choose an application.
+
+
+# ====================================================================================================
+# ====================================================================================================
+# ====================================================================================================
+
+# NpzFile(fid)
+
+# A dictionary-like object with lazy-loading of files in the zipped archive provided on construction.
+
+# NpzFile is used to load files in the NumPy .npz data archive format. It assumes that files in the archive have a .npy extension, other files are ignored.
+
+# The arrays and file strings are lazily loaded on either getitem access using obj['key'] or attribute lookup using obj.f.key. A list of all files (without .npy extensions) can be obtained with obj.files and the ZipFile object itself using obj.zip.
+
 def load_data_from_npz(filename):
     """Load and return the training data from a npz file (sparse format)."""
     with np.load(filename) as f:
